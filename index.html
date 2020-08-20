@@ -1,0 +1,1692 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Map -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+
+     <!--fonts  -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!--css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Sukhwani</title>
+  </head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#Home">
+          <img src="images/logo.png" class="page-logo" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#Home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#About-project">About Project</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Amenities">Amenities</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#gallary">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contactUs">Contact Us</a>
+            </li>
+
+            <li class="nav-item nav-item-last">
+                <a class="nav-link nav-link-last" href="###" data-toggle="modal" data-target="#exampleModal">Request Site Visit 
+                  <img src="images/nav-arrow.png" class="nav-arrow" alt="arrow"> 
+                </a>
+            </li>      
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="banner-slider-top" id="Home">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/banner.png" alt="First slide">
+
+          <div class="banner-slider-content-section">
+            <div class="banner-carousel-card">
+              <div class="banner-carousel-card-inner">
+                <h1 class="banner-carousel-title font-Josefin-Sans">CLASSIC ARISTOCRATIC <br> NEIGHBOURHOOD</h1>
+
+                <div class="banner-carousel-content-section block-br">
+                  <p class="banner-carousel-content-title font-candara">Creating the home of your dreams involves synchronizing a <br>
+                    multitude of components perfectly. Imagination, vision and <br>
+                    technical expertise combine with a can-do attitude that  <br>
+                    welcomes any challenge with grit and integrity.</p>
+                </div>
+
+                <div class="req-siteVisit-btn-section text-left">
+                  <a href="#">
+                    <button class="req-siteVisit-btn" data-toggle="modal" data-target="#exampleModal">
+                      <span class="req-siteVisit-btn-title">Request Site Visit
+                        <img src="images/nav-arrow.png" class="req-site-arrow" alt="arrow"> 
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="carousel-item">
+          <img class="d-block w-100" src="images/banner.png" alt="Second slide">
+
+          <div class="banner-slider-content-section">
+            <div class="banner-carousel-card">
+              <div class="banner-carousel-card-inner">
+                <h1 class="banner-carousel-title font-Josefin-Sans">CLASSIC ARISTOCRATIC <br> NEIGHBOURHOOD</h1>
+
+                <div class="banner-carousel-content-section block-br">
+                  <p class="banner-carousel-content-title font-candara">Creating the home of your dreams involves synchronizing a <br>
+                    multitude of components perfectly. Imagination, vision and <br>
+                    technical expertise combine with a can-do attitude that  <br>
+                    welcomes any challenge with grit and integrity.</p>
+                </div>
+
+                <div class="req-siteVisit-btn-section text-left">
+                  <a href="#">
+                    <button class="req-siteVisit-btn" data-toggle="modal" data-target="#exampleModal">
+                      <span class="req-siteVisit-btn-title">Request Site Visit
+                        <img src="images/nav-arrow.png" class="req-site-arrow" alt="arrow"> 
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <a class=" banner-carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon-first" aria-hidden="true">
+            <img src="images/banner-slider-left-arrow.png" alt="">
+          </span>
+          <span class="sr-only">Previous</span>
+        </a>
+  
+        <a class=" banner-carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon-first" aria-hidden="true">
+            <img src="images/banner-slider-right-arrow.png" alt="">
+          </span>
+          <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+  </section>
+
+
+<section class="home-section-two page-sections-atsm" id="About-project">
+    <div class="section-padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-11 mx-auto">
+            <div class="row">
+              <div class="col-lg-7">
+                <img class="home-block-one-img" src="images/home-block-one.png" alt="block-one-img">
+              </div>
+
+              <div class="col-lg-5">
+                <div class="right-block-two">
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <h4 class="block-title-one">Spacious 2 BHK Flats <br>in Baner Pashan NX</h4>
+                      <div class="block-content-section">
+                          <p class="block-content-title">
+                          Creating the home of your dreams involves synchronizing a <br>
+                            multitude of components perfectly. Imagination, vision and<br>
+                            technical expertise combine with a can-do attitude that<br>
+                            welcomes any challenge with grit and integrity.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                    <div class="property-detailed-section">
+                      <div class="property-detailed-card-row d-flex">
+    
+                          <div class="property-detailed-card property-detailed-card-one">
+                            <div class="property-detailed-card-inner text-center">
+                              <h5 class="property-area-title">Carpet Area</h5>
+                              <hr class="property-area-line" >
+                              <h5 class="property-area-detail-title">500 sq. ft onwards</h5>
+                            </div>
+                          </div>
+                  
+                          <div class="property-detailed-card property-detailed-card-second">
+                            <div class="property-detailed-card-inner text-center">
+                              <h5 class="property-area-title">Prices</h5>
+                              <hr class="property-area-line" >
+                              <h5 class="property-area-detail-title">47.5 to 58 Lakhs</h5>
+                            </div>
+                          </div>
+                  
+                          <div class="property-detailed-card property-detailed-card-three">
+                            <div class="property-detailed-card-inner text-center">
+                              <h5 class="property-area-title">Location</h5>
+                              <hr class="property-area-line" >
+                              <h5 class="property-area-detail-title">Baner Pashan NX</h5>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    <div class="">
+                      <a href="#" class="btn-atRight">
+                        <button class="emi-btn-section emi-block-one-btn" data-toggle="modal" data-target="#exampleModal">
+                          Enjoy No EMI for 12 years  -  Learn More
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="home-section-two page-sections-atlg" id="About-project">
+  <div class="section-padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          <h4 class="block-title-one">Spacious 2 BHK Flats <br>in Baner Pashan NX</h4>
+          <div class="row">
+            <div class="col-lg-7">
+              <img class="home-block-one-img" src="images/home-block-one.png" alt="block-one-img">
+            </div>
+
+            <div class="col-lg-5 col-md-12 col-12">
+              <div class="right-block-two">
+                <div class="d-flex justify-content-center">
+                  <div>
+                    
+                    <div class="block-content-section">
+                        <p class="block-content-title block-br">
+                        Creating the home of your dreams involves synchronizing a <br>
+                          multitude of components perfectly. Imagination, vision and<br>
+                          technical expertise combine with a can-do attitude that<br>
+                          welcomes any challenge with grit and integrity.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                
+                  <div class="property-detailed-section">
+                    <div class="row">
+  
+                        <div class="property-detailed-card-sm col-sm-3 col-4">
+                          <div class="property-detailed-card-inner text-center">
+                            <h5 class="property-area-title">Carpet Area</h5>
+                            <hr class="property-area-line property-area-line-atsm" >
+                            <h5 class="property-area-detail-title">500 sq. ft onwards</h5>
+                          </div>
+                        </div>
+                
+                        <div class="property-detailed-card-sm col-sm-3 col-4">
+                          <div class="property-detailed-card-inner text-center">
+                            <h5 class="property-area-title">Prices</h5>
+                            <hr class="property-area-line property-area-line-atsm" >
+                            <h5 class="property-area-detail-title">47.5 to 58 Lakhs</h5>
+                          </div>
+                        </div>
+                
+                        <div class="property-detailed-card-sm col-sm-3 col-4">
+                          <div class="property-detailed-card-inner text-center">
+                            <h5 class="property-area-title">Location</h5>
+                            <hr class="property-area-line property-area-line-atsm" >
+                            <h5 class="property-area-detail-title">Baner Pashan NX</h5>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <div class="">
+                    <a href="#" class="btn-atRight">
+                      <button class="emi-btn-section emi-block-one-btn" data-toggle="modal" data-target="#exampleModal">
+                        Enjoy No EMI for 12 years  -  Learn More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="home-section-three page-sections-atsm">
+    <div class="section-padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-11 mx-auto">
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="right-block-two">
+                  <div class="">
+                    <div>
+                      <h4 class="block-title-one">The Story Of A <br>
+                        Lasting Legacy</h4>
+                        <div class="block-content-section">
+                          <p class="block-content-title">
+                            Creating the home of your dreams involves synchronizing a <br>
+                            multitude of components perfectly. Imagination, vision and<br>
+                            technical expertise combine with a can-do attitude that<br>
+                            welcomes any challenge with grit and integrity.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                    <div class="property-detailed-section">
+                      <div class="property-detailed-card-row ">
+    
+                          <div class="property-detailed-card-two property-detailed-card-four">
+                            <div class="property-detailed-card-inner text-center">
+                              <h5 class="property-area-title">20 Million+ <br>
+                                sq. ft developed</h5>
+                            </div>
+                          </div>
+                  
+                          <div class="property-detailed-card-two property-detailed-card-five">
+                            <div class="property-detailed-card-inner text-center">
+                              <h5 class="property-area-title">Over 12+ <br>
+                                locations</h5>
+                              
+                            </div>
+                          </div>
+                  
+                          <div class="property-detailed-card-two property-detailed-card-six">
+                            <div class="property-detailed-card-inner text-center">
+                              <h5 class="property-area-title">5,000+ <br>
+                                apartments delivered</h5>
+                              
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+    
+                    <div class="btn-atLeft">
+                      <button class="emi-btn-section">
+                        12+ Banking Partners For Easy Home Loan Process
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-7">
+                  <img class="home-block-one-img" src="images/home-block-two.png" alt="block-one-img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section-three page-sections-atlg">
+    <div class="section-padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-11 mx-auto">
+            <h4 class="block-title-one">The Story Of A <br>Lasting Legacy</h4>
+                <div class="row">
+                    <div class="col-12">
+                        <img class="home-block-one-img" src="images/home-block-two.png" alt="block-one-img">
+                    </div>
+
+                    <div class="col-12">
+                        <div class="right-block-two">
+                        <div class="">
+                            <div>
+
+                                <div class="block-content-section">
+                                <p class="block-content-title block-br">
+                                    Creating the home of your dreams involves synchronizing a <br>
+                                    multitude of components perfectly. Imagination, vision and<br>
+                                    technical expertise combine with a can-do attitude that<br>
+                                    welcomes any challenge with grit and integrity.
+                                </p>
+                            </div>
+                            </div>
+    
+                  
+                    <div class="property-detailed-section">
+                      <div class="row">
+    
+                          <div class="property-detailed-card-two col-4">
+                            <div class="property-detailed-card-inner text-center">
+                              <h5 class="property-area-title">20 Million+ <br>
+                                sq. ft developed</h5>
+                            </div>
+                          </div>
+                  
+                          <div class="property-detailed-card-two  col-4">
+                            <div class="property-detailed-card-inner text-center">
+                              <h5 class="property-area-title">Over 12+ <br>
+                                locations</h5>
+                            </div>
+                          </div>
+                  
+                          <div class="property-detailed-card-two col-4">
+                            <div class="property-detailed-card-inner text-center">
+                              <h5 class="property-area-title">5,000+ <br>
+                                apartments delivered</h5>
+                              
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+    
+                    <div class="btn-atLeft">
+                      <button class="emi-btn-section">
+                        12+ Banking Partners For Easy Home Loan Process
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="home-video-section">
+    <div class="section-padding">
+        <div class="row">
+          <div class="col">
+            <div class="">
+              <h1 class="video-section-title">Every Inch A Masterpiece</h1>
+
+              <div class="video-section-btn" >
+                <div class="d-flex">
+                  <button data-toggle="modal" data-target="#exampleModal"><i class="fas fa-play"></i> See Project Video</button>
+                  <button data-toggle="modal" data-target="#exampleModal"><i class="fas fa-play"></i> Customer Testimonial</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sneak-pick-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          <div class="section-padding">
+            <div class="row sneak-pick-section-row">
+              <div class="col-lg-5 sneak-pick-section-col">
+                <h3 class="sneak-pick-section-title">Take A Sneak Peak In Your New <br>
+                  Home - Images Of Sample Flat</h3>
+              </div>
+
+              <div class="col-lg-6 offset-lg-1">
+                <div class="">
+                  <h3 class="sneak-pick-section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed aliquet tellus. Quisque feugiat quam in varius <br>
+                    laoreet. Integer feugiat sit amet leo sit amet posuere. Nullam id scelerisque eros. Morbi placerat faucibus libero ac <br>
+                    ullamcorper. Nam rutrum urna et congue cursus. Sed in viverra purus. Maecenas ligula justo, fringilla non posuere id, <br>
+                    tincidunt in felis. Praesent vel tempor massa, nec interdum est. Pellentesque venenatis mollis nibh in imperdiet.</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="site-gallry-slider-section" id="gallary">
+    <div id="myCarousel2" class="carousel slide" data-ride="carousel">	
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container-fluid">
+            <div class="row page-sections-atsm">
+              <div class="col-md-11 mx-auto">
+                <div class="row no-gutters">
+                  <div class="col-lg-4 col-md-4 col-4">
+                    <img class="img-fluid" src="images/gallary-img-one.png" alt="Gallery-image-one">
+                  </div>
+  
+                  <div class="col-lg-4 col-md-4 col-4">
+                    <img class="img-fluid gallary-img-second" src="images/gallary-img-two.png" alt="Gallery-image-one">
+                    <img class="img-fluid" src="images/gallary-img-three.png" alt="Gallery-image-one">
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-4">
+                    <img class="img-fluid gallary-img-second" src="images/gallary-img-four.png" alt="Gallery-image-one">
+                    <img class="img-fluid" src="images/gallary-img-five.png" alt="Gallery-image-one">
+                  </div>
+                </div>
+              </div>
+            </div>	
+            
+            <div class="row page-sections-atlg">
+              <div class="col-md-11 mx-auto">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <img class="img-fluid" src="images/gallary-img-one.png" alt="Gallery-image-one">
+                  </div>
+  
+                  <div class="col-6">
+                    <img class="img-fluid gallary-img-second" src="images/gallary-img-two.png" alt="Gallery-image-one">
+                    <img class="img-fluid" src="images/gallary-img-three.png" alt="Gallery-image-one">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item carousel-image-2">
+          <div class="container-fluid">
+            <div class="row page-sections-atsm">
+              <div class="col-md-11 mx-auto">
+                <div class="row no-gutters">
+                  <div class="col-lg-4 col-md-4 col-4">
+                    <img class="img-fluid" src="images/gallary-img-one.png" alt="Gallery-image-one">
+                  </div>
+  
+                  <div class="col-lg-4 col-md-4 col-4">
+                    <img class="img-fluid gallary-img-second" src="images/gallary-img-two.png" alt="Gallery-image-one">
+                    <img class="img-fluid" src="images/gallary-img-three.png" alt="Gallery-image-one">
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-4">
+                    <img class="img-fluid gallary-img-second" src="images/gallary-img-four.png" alt="Gallery-image-one">
+                    <img class="img-fluid" src="images/gallary-img-five.png" alt="Gallery-image-one">
+                  </div>
+                </div>
+              </div>
+            </div>	
+            
+            <div class="row page-sections-atlg">
+              <div class="col-md-11 mx-auto">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <img class="img-fluid gallary-img-second" src="images/gallary-img-two.png" alt="Gallery-image-one">
+                    <img class="img-fluid" src="images/gallary-img-three.png" alt="Gallery-image-one">
+                  </div>
+
+                  <div class="col-6">
+                    <img class="img-fluid gallary-img-second" src="images/gallary-img-four.png" alt="Gallery-image-one">
+                    <img class="img-fluid" src="images/gallary-img-five.png" alt="Gallery-image-one">
+                  </div>
+                </div>
+              </div>
+            </div>	
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel2" data-slide="prev" class="gallary-carousel-control-prev">
+        <span class="slider-two-left-arrow"><img src="images/slider-two-left-arrow.png" alt="left arrow"></span>
+      </a>
+
+      <a href="#myCarousel2" data-slide="next" class="gallary-carousel-control-next">
+        <span class="slider-two-right-arrow"><img src="images/slider-two-right-arrow.png" alt="right arrow"></span>
+      </a>
+    </div>	
+  </section>
+
+  
+
+  <section class="mid-line-section">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 text-center">
+          <p>“There is nothing like a happy and healthy life”</p>
+
+          <div class="d-flex align-items-center mid-line-design">
+            <div class="line-before"></div>
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+            <div class="dot-4"></div>
+            <div class="line-after"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Ameities-section page-sections-atsm" id="Amenities">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto text-center">
+          <h5 class="page-sections-title-one">Worrld Class Ameities Curated For You</h5>
+          
+          <div class="row no-gutters">
+            <div class="col-lg-2">
+              <div class="ameities-section-border-left">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-one.png" alt="">
+                  <p class="ameities-section-title">General & <br>
+                    Service Lift</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="ameities-section-border-left">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-two.png" alt="">
+                  <p class="ameities-section-title">Landscape <br>
+                    Garden</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="ameities-section-border-left">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-three.png" alt="">
+                  <p class="ameities-section-title">Swimming <br>
+                    Pool</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="ameities-section-border-left">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-four.png" alt="">
+                  <p class="ameities-section-title">Fully Equipped <br>
+                    Gym</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="ameities-section-border-left">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-five.png" alt="">
+                  <p class="ameities-section-title">24 x 7 Power <br>
+                    Backup</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="ameities-section-border-right">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-six.png" alt="">
+                  <p class="ameities-section-title">Community <br>
+                    Hall</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row no-gutters">
+            <div class="col-lg-2">
+              <div class="ameities-sectionTwo-border-right">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-seven.png" alt="">
+                  <p class="ameities-section-title">Multi Purpose <br>
+                    Court</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="ameities-sectionTwo-border-right">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-eight.png" alt="">
+                  <p class="ameities-section-title">Landscape <br>
+                    Garden</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="ameities-sectionTwo-border-right">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-nine.png" alt="">
+                  <p class="ameities-section-title">Cycling & <br>
+                    Jogging Track</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="ameities-sectionTwo-border-right">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-ten.png" alt="">
+                  <p class="ameities-section-title">Sewage <br>
+                    Treatment</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="ameities-sectionTwo-border-right">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-eleven.png" alt="">
+                  <p class="ameities-section-title">Children <br>
+                    Play Area</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="ameities-sectionTwo-border-left">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-twelve.png" alt="">
+                  <p class="ameities-section-title">Fire Fighting <br>
+                    Systems</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Ameities-section page-sections-atlg" id="Amenities">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto text-center">
+          <h5 class="page-sections-title-one">Worrld Class Ameities Curated For You</h5>
+          
+          <div class="row no-gutters">
+            <div class="col-4">
+              <div class="ameities-section-border-left">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-one.png" alt="">
+                  <p class="ameities-section-title">General & <br>
+                    Service Lift</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="ameities-section-border-left">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-two.png" alt="">
+                  <p class="ameities-section-title">Landscape <br>
+                    Garden</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="ameities-section-border-right">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-three.png" alt="">
+                  <p class="ameities-section-title">Swimming <br>
+                    Pool</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row no-gutters">
+            <div class="col-4">
+                <div class="ameities-section-border-left">
+                  <div class="ameities-section-border-inner">
+                    <img src="images/Ameities-img-four.png" alt="">
+                    <p class="ameities-section-title">Fully Equipped <br>
+                      Gym</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-4">
+                <div class="ameities-section-border-left">
+                  <div class="ameities-section-border-inner">
+                    <img src="images/Ameities-img-five.png" alt="">
+                    <p class="ameities-section-title">24 x 7 Power <br>
+                      Backup</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-4">
+                <div class="ameities-section-border-right">
+                  <div class="ameities-section-border-inner">
+                    <img src="images/Ameities-img-six.png" alt="">
+                    <p class="ameities-section-title">Community <br>
+                      Hall</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="row no-gutters">
+            <div class="col-4">
+              <div class="ameities-sectionTwo-border-right">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-seven.png" alt="">
+                  <p class="ameities-section-title">Multi Purpose <br>
+                    Court</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="ameities-sectionTwo-border-right">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-eight.png" alt="">
+                  <p class="ameities-section-title">Landscape <br>
+                    Garden</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="ameities-sectionTwo-border-left">
+                <div class="ameities-section-border-inner">
+                  <img src="images/Ameities-img-nine.png" alt="">
+                  <p class="ameities-section-title">Cycling & <br>
+                    Jogging Track</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row no-gutters">
+            <div class="col-4">
+                <div class="ameities-sectionTwo-border-right-last">
+                    <div class="ameities-section-border-inner">
+                    <img src="images/Ameities-img-ten.png" alt="">
+                    <p class="ameities-section-title">Sewage <br>
+                        Treatment</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <div class="ameities-sectionTwo-border-right-last">
+                    <div class="ameities-section-border-inner">
+                    <img src="images/Ameities-img-eleven.png" alt="">
+                    <p class="ameities-section-title">Children <br>
+                        Play Area</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <div class="ameities-sectionTwo-border-left-last">
+                    <div class="ameities-section-border-inner">
+                    <img src="images/Ameities-img-twelve.png" alt="">
+                    <p class="ameities-section-title">Fire Fighting <br>
+                        Systems</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mid-line-section">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4">
+          <div class="d-flex align-items-center mid-line-design">
+            <div class="line-before"></div>
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+            <div class="dot-4"></div>
+            <div class="line-after"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="floor-plans-slider-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          <h5 class="page-sections-title-one ">Floor Plans And Isometric View</h5>
+
+          <div id="myCarousel" class="carousel slide " data-ride="carousel">	
+            <div class="carousel-inner">
+              <div class="carousel-item carousel-image-1 active">
+                <div class="page-sections-atsm">					
+                  <div class="row page-sections-atlg">					
+                    <div class="col-lg-4 col-md-4 col-4">
+                      <div class="floor-plan-section-card">
+                        <div class="floor-plan-section-card-inner">
+                          <div>
+                            <img class="img-fluid"  src="images/floor-plans.png" alt="floor-plan-img">
+                          </div>
+    
+                          <div class="d-flex justify-content-end">
+                            <div class="floorPlan-area-details">
+                              750 sq ft
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-4 col-4">
+                      <div class="floor-plan-section-card">
+                        <div class="floor-plan-section-card-inner">
+                          <div>
+                            <img class="img-fluid"  src="images/floor-plans.png" alt="floor-plan-img">
+                          </div>
+    
+                          <div class="d-flex justify-content-end">
+                            <div class="floorPlan-area-details">
+                              800 sq ft
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-4 col-4">
+                      <div class="floor-plan-section-card">
+                        <div class="floor-plan-section-card-inner">
+                          <div>
+                            <img class="img-fluid"  src="images/floor-plans.png" alt="floor-plan-img">
+                          </div>
+    
+                          <div class="d-flex justify-content-end">
+                            <div class="floorPlan-area-details">
+                              850 sq ft
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="page-sections-atlg">					
+                  <div class="row">					
+                    <div class="col-6">
+                      <div class="floor-plan-section-card">
+                        <div class="floor-plan-section-card-inner">
+                          <div>
+                            <img class="img-fluid"  src="images/floor-plans.png" alt="floor-plan-img">
+                          </div>
+    
+                          <div class="d-flex justify-content-end">
+                            <div class="floorPlan-area-details">
+                              750 sq ft
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-6">
+                      <div class="floor-plan-section-card">
+                        <div class="floor-plan-section-card-inner">
+                          <div>
+                            <img class="img-fluid"  src="images/floor-plans.png" alt="floor-plan-img">
+                          </div>
+    
+                          <div class="d-flex justify-content-end">
+                            <div class="floorPlan-area-details">
+                              800 sq ft
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        
+              <div class="carousel-item carousel-image-1">
+                <div class="page-sections-atsm">					
+                  <div class="row page-sections-atlg">					
+                    <div class="col-lg-4 col-md-4 col-4">
+                      <div class="floor-plan-section-card">
+                        <div class="floor-plan-section-card-inner">
+                          <div>
+                            <img class="img-fluid"  src="images/floor-plans.png" alt="floor-plan-img">
+                          </div>
+    
+                          <div class="d-flex justify-content-end">
+                            <div class="floorPlan-area-details">
+                              750 sq ft
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-4 col-4">
+                      <div class="floor-plan-section-card">
+                        <div class="floor-plan-section-card-inner">
+                          <div>
+                            <img class="img-fluid"  src="images/floor-plans.png" alt="floor-plan-img">
+                          </div>
+    
+                          <div class="d-flex justify-content-end">
+                            <div class="floorPlan-area-details">
+                              800 sq ft
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-4 col-4">
+                      <div class="floor-plan-section-card">
+                        <div class="floor-plan-section-card-inner">
+                          <div>
+                            <img class="img-fluid"  src="images/floor-plans.png" alt="floor-plan-img">
+                          </div>
+    
+                          <div class="d-flex justify-content-end">
+                            <div class="floorPlan-area-details">
+                              850 sq ft
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="page-sections-atlg">					
+                  <div class="row">					
+                    <div class="col-6">
+                      <div class="floor-plan-section-card">
+                        <div class="floor-plan-section-card-inner">
+                          <div>
+                            <img class="img-fluid"  src="images/floor-plans.png" alt="floor-plan-img">
+                          </div>
+    
+                          <div class="d-flex justify-content-end">
+                            <div class="floorPlan-area-details">
+                              750 sq ft
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-6">
+                      <div class="floor-plan-section-card">
+                        <div class="floor-plan-section-card-inner">
+                          <div>
+                            <img class="img-fluid"  src="images/floor-plans.png" alt="floor-plan-img">
+                          </div>
+    
+                          <div class="d-flex justify-content-end">
+                            <div class="floorPlan-area-details">
+                              800 sq ft
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <a href="#myCarousel" data-slide="prev" class="floorPlan-carousel-control-prev">
+              <span class="floorPlan-carousel-control-prev-icon"><img src="images/slider-two-left-arrow.png" alt="right arrow"></span>
+            </a>
+        
+            <a href="#myCarousel" data-slide="next" class="floorPlan-carousel-control-next">
+              <span class="floorPlan-carousel-control-next-icon"><img src="images/slider-two-right-arrow.png" alt="right arrow"></span>
+            </a>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="location-sections">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          <div class="location-sections-inner">
+            <h3 class="location-section-title">Location And Neighbourhood</h3>
+            <div class="row">
+              <div class="col-lg-5 col-12">
+                <div class="bs-example">
+                  <div class="accordion" id="accordionExample">
+
+                      <div class="accordion-card">
+                          <div class="card-header accordion-card-header" id="headingOne">
+                              <h2 class="mb-0">
+                                  <div data-toggle="collapse" data-target="#collapseOne" class="d-flex">
+                                    <h5 class="location-accordion-header">5 Hospitals Nearby</h5>
+                                    <i class="fa fa-plus ml-auto"></i>
+                                  </div>									
+                              </h2>
+                          </div>
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                              <div class="">
+                                <ul class="location-accordion-list">
+                                  <li>* Sus Hospital</li>
+                                  <li>* Diagnosis Center</li>
+                                  <li>* Jeevan Hospital</li>
+                                </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="accordion-card">
+                          <div class="card-header accordion-card-header" id="headingTwo">
+                              <h2 class="mb-0">
+                                  <div  class="d-flex" data-toggle="collapse" data-target="#collapseTwo">
+                                    <h5 class="location-accordion-header">6 Schools Nearby</h5>
+                                    <i class="fa fa-plus ml-auto"></i> 
+                                  </div>
+                              </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="">
+                              <ul class="location-accordion-list">
+                                <li>* Sus Hospital</li>
+                                <li>* Diagnosis Center</li>
+                                <li>* Jeevan Hospital</li>
+                              </ul>
+                            </div>
+                          </div>
+                      </div>
+
+                      <div class="accordion-card">
+                          <div class="card-header accordion-card-header" id="headingThree">
+                              <h2 class="mb-0">
+                                  <div class="d-flex" data-toggle="collapse" data-target="#collapseThree">
+                                    <h5 class="location-accordion-header">5 Colleges Nearby</h5>
+                                    <i class="fa fa-plus ml-auto"></i>
+                                  </div>           
+                              </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="">
+                              <ul class="location-accordion-list">
+                                <li>* Sus Hospital</li>
+                                <li>* Diagnosis Center</li>
+                                <li>* Jeevan Hospital</li>
+                              </ul>
+                            </div>
+                          </div>
+                      </div>
+
+                      <div class="accordion-card accordion-card-last">
+                        <div class="card-header accordion-card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <div class="d-flex" data-toggle="collapse" data-target="#collapseFour">
+                                  <h5 class="location-accordion-header">4 Entertainment/Shopping Nearby</h5>
+                                  <i class="fa fa-plus ml-auto"></i>
+                                </div>           
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="">
+                            <ul class="location-accordion-list">
+                              <li>* Sus Hospital</li>
+                              <li>* Diagnosis Center</li>
+                              <li>* Jeevan Hospital</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-12 offset-lg-1">
+                <div id="map"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="specifications-section page-sections-atsm">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          <h5 class="page-sections-title-one ">Specifications</h5>
+
+
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-4">
+              <div class="">
+                <h5 class="specifications-title">STRUCTURE</h5>
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content">Environmentally Sensitive Building, Designed <br>
+                    to Resist Seismic Force of Zone III</p>
+                </div>
+              </div>
+
+              <div class="specifications-info-section">
+                <h5 class="specifications-title">KITCHEN & DRY BALCONY</h5>
+
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content">Granite Top Kitchen Platform</p>
+                  <p class="specifications-content">Dado Tiles upto Lintel Level in Kitchen</p>
+                  <p class="specifications-content">Electrical Point for Fridge, Microwave, <br>
+                    Water Purifier</p>
+                  <p class="specifications-content"> Washing Machine Point in Dry Balcony</p>
+                  <p class="specifications-content">3 ft. Dado Tiles in Dry Balcony</p>
+                  <p class="specifications-content">Provision for Exhaust Fan</p>
+                </div>
+              </div>
+
+              <div class="specifications-info-section">
+                <h5 class="specifications-title">PLUMBING</h5>
+
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content">Concealed Plumbing with Standard <br>
+                    C.P. Fittings & Sanitary Fixtures</p>
+                  <p class="specifications-content">Brick Bat/ Chemical Double Coat Water <br>
+                    Proofing in Bathrooms, Terraces & Dry Balcony</p>
+                </div>
+              </div>
+
+              <div class="specifications-info-section">
+                <h5 class="specifications-title">LIFT LOBBIES</h5>
+
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content">Designer Entrance Lobby</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-4">
+              <div class="">
+                <h5 class="specifications-title">SPECIAL FEATIRES</h5>
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content">Solar Water Connection In 1 Washroom</p>
+                  <p class="specifications-content">False Ceiling in Bathrooms</p>
+                  <p class="specifications-content">LED Tube Lights and Fans in Entire Flat</p>
+
+                </div>
+              </div>
+
+              <div class="specifications-info-section">
+                <h5 class="specifications-title">DOORS & DOOR FRAMES</h5>
+
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content">Designer Laminate Finish Main Door</p>
+                  <p class="specifications-content">Both Side Laminated Flush Door in Bedrooms <br>
+                    and Bathrooms</p>
+                  
+                  <p class="specifications-content">Powder Coated French Doors for Living Terrace</p>
+                </div>
+              </div>
+        
+              <div class="specifications-info-section">
+                <h5 class="specifications-title">WINDOWS & GRILLS</h5>
+
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content">Three Track Powder Coated Aluminum Sliding <br>
+                    Windows with sliding glass shutters, mosquito net</p>
+                  <p class="specifications-content">M. S. Railing for Balcony and Terrace</p>
+                  <p class="specifications-content"> Marble/granite window sill</p>
+                  <p class="specifications-content">Aluminium Louvers with Exhaust Fan Provision in <br>
+                    Bathroom</p>
+                  <p class="specifications-content">Safety Grill for Window</p>
+
+                </div>
+              </div>
+
+              <div class="specifications-info-section">
+                <h5 class="specifications-title">PAINT</h5>
+
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content">Internally Double Coated OBD Paint</p>
+                    <p class="specifications-content">Externally Semi Acrylic Paint</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-4">
+              <div class="">
+                <h5 class="specifications-title">SPECIAL FEATIRES</h5>
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content">Concealed Wiring with Modular Switches</p>
+                  <p class="specifications-content">A.C Point in Master Bedroom</p>
+                  <p class="specifications-content">Exhaust Fan Point in Kitchen & Bathroom</p>
+                  <p class="specifications-content">Separate MCB/ELCB for Each Apartment</p>
+                  <p class="specifications-content">TV & Telephone Point in Living & Master Bedroom</p>
+                  <p class="specifications-content">Provision for DTH, Broadband & Inverter Point</p>
+                </div>
+              </div>
+
+              <div class="specifications-info-section">
+                <h5 class="specifications-title">DOORS & DOOR FRAMES</h5>
+
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content"> 800mm X 800mm Vitrified Tiles in Apartment</p>
+                  <p class="specifications-content">7ft. Designer Dado Tiles in Bathrooms</p>
+                  
+                  <p class="specifications-content">Anti-skid Ceramic Tiles in Bathrooms and Dry Balcony</p>
+                  <p class="specifications-content">Granite/ Marble Door Frames for all Bathrooms</p>
+                </div>
+              </div>
+
+              <div class="specifications-info-section">
+                <h5 class="specifications-title">WALL FINISH</h5>
+
+                <div class="specifications-info-section-padding">
+                  <p class="specifications-content">AAC Block Masonary</p>
+                    <p class="specifications-content">Sand Faced External Plaster</p>
+                    <p class="specifications-content"> Internal Wall & Ceiling in Gypsum Finish</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="specifications-section page-sections-atlg ">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          <h5 class="page-sections-title-one ">Specifications</h5>
+
+          <div class="scrollmenu">
+            <h5 onclick="tabs('main')" href="#">STRUCTURE</h5>
+            <h5 onclick="tabs('first')" href="#">KITCHEN & DRY BALCONY</h5>
+            <h5 onclick="tabs('second')">PLUMBING</h5>
+            <h5 onclick="tabs('third')">LIFT LOBBIES</h5>
+            <h5 onclick="tabs('four')">SPECIAL FEATIRES</h5>
+            <h5 onclick="tabs('five')">DOORS & DOOR FRAMES</h5>
+            <h5 onclick="tabs('six')">WINDOWS & GRILLS</h5>  
+            <h5 onclick="tabs('seven')">PAINT</h5>
+            <h5 onclick="tabs('eight')">SPECIAL FEATIRES</h5>
+            <h5 onclick="tabs('nine')">DOORS & DOOR FRAMES</h5>
+            <h5 onclick="tabs('ten')">WALL FINISH</h5>
+          </div>
+
+          <div class="specifications-info-section-padding">
+            <p class="specifications-content" id="tab-content">Environmentally Sensitive Building, Designed <br>
+              to Resist Seismic Force of Zone III</p>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mid-line-section">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4">
+          <div class="d-flex align-items-center mid-line-design">
+            <div class="line-before"></div>
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+            <div class="dot-4"></div>
+            <div class="line-after"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="enquiry-form-section" id="contactUs">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-11 mx-auto">
+          <h5 class="page-sections-title-one ">Enquire Now</h5>
+
+          <div>
+            <form>
+              <div class="form-row">
+                <div class="col-lg-3 col-md-3">
+                  <label for="first-name" class="sr-only">Full name*</label>
+                  <input type="text" class="" placeholder="Full name*">
+                </div>
+                
+                <div class="col-lg-3 col-md-3">
+                  <label for="phone" class="sr-only">Phone</label>
+                  <input type="text" class="" placeholder="Phone no*">
+                </div>
+
+                <div class="col-lg-3 col-md-3">
+                  <label for="Email" class="sr-only">Email</label>
+                  <input type="text" class="" placeholder="Email ID*">
+                </div>
+
+                <div class="col-lg-3 col-md-3">
+                  <label for="interest" class="sr-only">Interested In*</label>
+                  <select name="interest">
+                    <option value="" selected="true" disabled="disabled">Interested In*</option>
+                    <option value="">Flat</option>
+                    <option value="">Flat</option>
+                    <option value="">Flat</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="enquiry-submit-btn-section">
+                <button type="button" class="enquiry-submit-btn">Submit 
+                  <img src="images/enquiry-form-arrow.png" alt="arrow" class="enquiry-form-arrow">
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mid-line-section">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4">
+          <div class="d-flex align-items-center mid-line-design">
+            <div class="line-before"></div>
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+            <div class="dot-4"></div>
+            <div class="line-after"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-description">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          <div class="text-center block-br">
+            <p class="project-description-content">The project has been registered via MahaRERA registration number P52100001066 and is available on the website http://maharera.mahaonline.gov.in under registered projects. <br>
+              The Contents including brochures and marketing collateral displayed/provided on this website are solely for informational purposes and is not intended to constitute an offer or<br>
+              solicitation as this website is under updation/reconstruction. It is Artistic impression/Schematic representation of the project shown on this site and is indicative of how the unit can be<br>
+              used. No furniture/s or accessories shown in the visuals are provided with the unit/tenement/apartment. This web site material does not constitutes an offer and / or contract of any type<br>
+              between the Developer/Promoter/Owner and the recipient, all intending purchaser/s in this project shall be governed by the terms and conditions envisaged under The Real Estate (Regulation<br>
+              And Development) Act 2016. Nothing on the website should be misconstrued as advertising, marketing, booking, selling or an offer for sale or invitation to purchase a unit in any project by the<br>
+              company/firm. The company/firm is not responsible for the consequences of any action taken by the viewer relying on such material/information on this website.</p>
+          </div>
+
+          <div class="download-doc-section"> 
+            <a href="##">
+              <button class="download-doc-btn" data-toggle="modal" data-target="#exampleModal">
+                Download Brochure
+                <img src="images/enquiry-form-arrow.png" alt="arrow" class="download-doc-arrow">
+              </button>
+            </a>
+
+            <a href="##">
+              <button class="download-doc-btn" data-toggle="modal" data-target="#exampleModal">
+                Schedule Virtual Tour
+                <img src="images/enquiry-form-arrow.png" alt="arrow" class="download-doc-arrow">
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <footer class="footer-first page-sections-atsm">
+    <div class="conatiner-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          <div class="row footer-first-row">
+            <div class="col-lg-6">
+              <div class="d-flex align-items-center">
+                <a href="#Home"><p>About Us</p></a>        
+                <a href="#gallary"><p>Project Gallery</p>  </a>      
+                <a href="#Amenities"><p>Amenities</p></a>        
+                <a href="##" data-toggle="modal" data-target="#exampleModal"><p>Download Brochure</p></a>         
+                <a href="##" data-toggle="modal" data-target="#exampleModal"><p>Virtual Tour</p> </a>       
+                <a href="#contactUs"><p>Contact Us</p></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 footer-first-rightContent">
+              <div class="d-flex align-items-center justify-content-end">
+                <a href="##"><p>+91 99999 99999</p></a>       
+                <a href="##"><p>+91 88888 88888</p>  </a>      
+                <a href="##"><p>sales@sukhwanigracia.in</p>  </a>      
+                <a href="##"><p>Facebook</p>  </a>     
+                <a href="##"><p>Instagram</p></a>        
+                <a href="##"><p>Twitter</p></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer-first page-sections-atlg">
+    <div class="conatiner-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+            <div class="row footer-first-row d-flex justify-content-around">
+                <div class="col-5 d-flex justify-content-center">
+                    <div class="">
+                      <a href="#Home"><p>About Us</p></a>        
+                      <a href="#gallary"><p>Project Gallery</p>  </a>      
+                      <a href="#Amenities"><p>Amenities</p></a>          
+                    </div>
+                </div>
+
+                <div class="col-5 d-flex justify-content-center">
+                    <div class="">      
+                      <a href="##" data-toggle="modal" data-target="#exampleModal"><p>Download Brochure</p></a>         
+                      <a href="##" data-toggle="modal" data-target="#exampleModal"><p>Virtual Tour</p> </a>       
+                      <a href="#contactUs"><p>Contact Us</p></a>
+                    </div>
+                </div>
+            </div>
+              
+
+            <div class="row">
+                <div class="col-12 footer-first-rightContent d-flex justify-content-center">
+                    <div class="d-flex align-items-center">
+                      <p>+91 99999 99999   </p>         
+                      <p>+91 88888 88888  </p>        
+                      <p>sales@sukhwanigracia.in  </p>        
+                    </div>
+                  </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 footer-first-rightContent d-flex justify-content-center">
+                    <div class="d-flex align-items-center social-media-titles ">
+                        <p>Facebook </p>         
+                        <p>Instagram  </p>        
+                        <p>Twitter</p>        
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer-second page-sections-atsm">
+    <div class="conatiner-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          <div class="row footer-second-row">
+            <div class="col-lg-6">
+              <div class="d-flex align-items-center">
+                <p>© Copyright 2020; Sukhwani Gracial, All Rights Reserved</p>
+              </div>
+            </div>
+
+            <div class="col-lg-6 footer-first-rightContent">
+              <div class="d-flex align-items-center justify-content-end">
+                <p>Designed and Developed by BrandzGarage</p>         
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer-second page-sections-atlg">
+    <div class="conatiner-fluid">
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          <div class="row footer-second-row">
+            <div class="col-12">
+              <div class="d-flex align-items-center justify-content-center">
+                <p>© Copyright 2020; Sukhwani Gracial, All Rights Reserved</p>
+              </div>
+            </div>
+
+            <div class="col-12 footer-first-rightContent">
+              <div class="d-flex align-items-center justify-content-center">
+                <p>Designed and Developed by BrandzGarage</p>         
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="body-part body-part-stsm"> 
+    <div class="icon-list"> 
+        <a href="#instagram" class="instagram"> 
+          <i class="fas fa-phone"></i>
+        </a> 
+           
+        <a href="#facebook" class="facebook"> 
+          <i class="fas fa-envelope-open-text"></i>
+        </a> 
+           
+        <a href="#twitter" class="twitter"> 
+          <i class="fab fa-whatsapp"></i> 
+        </a>  
+    </div> 
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="personal-demo-modal">
+            <button type="button" class="close ml-auto personal-demo-modal-closebtn" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><img class="pop-up-close-btn" src="images/pop-up-close.png"></span>
+            </button>
+        
+
+          <div class="personal-demo-modal-body" id="personal-demo-modal-body">
+            <div class="row no-gutters d-flex align-items-center">
+              <div class="col-md-6 modal-leftcol-atsm">
+                <div class="personal-demo-modal-img-section">
+                  <img class="modal-left-img " src="images/pop-up-img.png">
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="personal-demo-modal-content">
+                  <h5 class="personal-demo-modal-content-title">Fill these details to get more information </h5>
+
+                  <form>
+                  <div class="form-group">
+                    <label for="" class="sr-only">Full name*</label>
+                    <input id="full-name" name="name" type="text" class="form-control"  placeholder="Full name*" 
+                     required>     
+                  </div>
+
+                  <div class="form-group">
+                    <label for="" class="sr-only">Phone number*</label>
+                    <input id="phone-number" name="phone" type="number" class="form-control"  placeholder="Phone number*"  required>     
+                  </div>
+
+                  <div class="form-group">
+                    <label for="" class="sr-only">Email ID*</label>
+                    <input id="email" name="email" type="email" class="form-control"  placeholder="Email ID*" required>        
+                  </div>
+
+                  
+                  <div class="">
+                    <button class="g-recaptcha personal-demo-modal-btn" data-sitekey="6LcKvb4ZAAAAALT8HJN_nYyS212xLY3HugSIEJ_a" data-callback='onSubmit'>
+                      Submit
+                      <img src="images/enquiry-form-arrow.png" alt="arrow" class="enquiry-form-arrow">
+                      </button>
+                 </div>
+              </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

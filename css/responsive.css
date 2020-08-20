@@ -1,0 +1,306 @@
+/* Mobile View */
+@media (max-width: 576px){
+    .block-br br{
+        display: none;
+    }
+
+    .navbar {
+        padding: .5rem 1rem;
+    }
+
+    .page-logo {
+        height: auto;
+        width: 50px;
+    }
+
+    .block-title-one {
+        font-family: 'Josefin Sans';
+        font-size: 17px;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .right-block-two {
+        padding-top: 0em;
+    }
+
+    .block-content-title {
+        font-family: Candara;
+        font-size: 13px;
+        line-height: 1.75;
+        letter-spacing: 0.8px;
+        text-align: center;
+        color: #747474;
+    }
+
+    .property-detailed-card-sm {
+        background-color: #00455a;
+    }
+
+    .property-detailed-section {
+        margin-top: 0em;
+    }
+
+    .property-detailed-card-inner {
+        padding: 10px 0;
+    }
+
+    .property-area-line-atsm {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .property-area-detail-title {
+        font-family: 'Josefin Sans';
+        font-size: 13px;
+    }
+
+    .btn-atRight {
+        display: flex;
+        justify-content: center;
+    }
+
+    .emi-block-one-btn, .btn-atLeft {
+        width: 100%;
+        margin-top: 3em;
+    }
+
+    .property-area-title {
+        font-size: 13px;
+    }
+
+    .video-section-title {
+        font-size: 20px;
+    }
+
+    .video-section-btn button {
+        font-size: 11px;
+        padding: 1em 7px;
+        margin: 0px 5px;
+    }
+
+    .sneak-pick-section-title {
+        font-size: 17px;
+        text-align: center;
+        color: #404040;
+    }
+    
+    .sneak-pick-section-content {
+        font-size: 11.5px;
+        padding-top: 1.5em;
+        text-align: center;
+    }
+
+    .sneak-pick-section .section-padding {
+        padding: 2em 0;
+    }
+
+    .site-gallry-slider-section {
+        margin-bottom: 2em;
+    }
+
+    .page-sections-title-one {
+        font-size: 17px;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .ameities-section-title {
+        font-family: 'Josefin Sans';
+        font-size: 13px;
+        padding-top: 1.5em;
+        margin-bottom: 0;
+    }
+
+    .Ameities-section img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .ameities-sectionTwo-border-right-last{
+        border-right: .5px solid #b7b7b7;
+        border-top: .5px solid #b7b7b7;
+        padding: 15px 0;
+    }
+
+    .ameities-section-border-left {
+        border-bottom: .5px solid #b7b7b7;
+        border-right: .5px solid #b7b7b7;
+        padding: 15px 0;
+    }
+
+    .ameities-section-border-right {
+        border-bottom: .5px solid #b7b7b7;
+        padding: 15px 0;
+    }
+
+    .ameities-sectionTwo-border-left {
+        padding: 15px 0;
+    }
+
+    .ameities-sectionTwo-border-right {
+        border-right: .5px solid #b7b7b7;
+        padding:  15px 0;
+    }
+
+    .ameities-sectionTwo-border-left-last{
+        border-top: .5px solid #b7b7b7;
+        padding:  15px 0;
+    }
+
+    .floor-plan-section-card-inner {
+        padding: 8px 0;
+    }
+
+    .floorPlan-area-details {
+        background-color: #00455a;
+        font-family: 'Josefin Sans';
+        font-size: 11px;
+        font-weight: 600;
+        padding: 1em 2em;
+        letter-spacing: 0.18px;
+        text-align: left;
+        color: #ffffff;
+        padding: 4px 5px;
+    }
+
+    .specifications-section {
+        margin-top: 2em;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        line-height: 2.07;
+    }
+    
+    .enquiry-form-section input, select {
+        width: 100%;
+        margin: .5em 0;
+    }
+
+    .download-doc-btn {
+        font-size: 11px;
+        margin: 0 2px;
+        padding: 15px 6px;
+    }
+
+    .footer-first p, .footer-second p {
+        font-size: 11px;
+        padding: 10px 0;
+        text-align: center;
+        
+    }
+
+    .social-media-titles p{
+        padding: 0 20px;
+    }
+
+    .footer-first-row {
+        padding: 0 0 20px 0;
+    }
+
+    .footer-first {
+        background-color: #00455a;
+        padding: 2em 0;
+    }
+
+    .specifications-content {
+        font-family: 'Josefin Sans';
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 0.18px;
+        text-align: center;
+        color: #404040;
+        padding-top: 1em;
+    }
+
+    .home-section-two {
+        margin: 2em 0;
+    }
+
+    .page-sections-atsm{
+        display: none!important;
+    }
+
+    .page-sections-atlg{
+        display: block;
+    }
+
+    .project-description {
+        margin: 3em 0 5em 0;
+    }
+
+    .enquiry-submit-btn {
+        margin: 3em 0 0 0;
+    }
+
+    .banner-slider-content-section {
+        width: 87%;
+        position: absolute;
+        top: 4em;
+        left: 1.5em;
+    }
+
+    .banner-carousel-card-inner {
+        padding: 1em;
+    }
+
+    .banner-carousel-title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .banner-carousel-content-title {
+        font-size: 13px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .req-siteVisit-btn-section {
+        margin-top: 1.5em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-control-prev-icon-first {
+        right: 11.5em;
+        bottom: 1em;
+    }
+
+    .carousel-control-next-icon-first {
+
+        bottom: 15.9px;
+        right: 126px;
+    }
+
+    .banner-slider-top .w-100{
+        height: 30em;;
+    }
+
+    .modal-leftcol-atsm{
+        display: none;
+    }
+
+    .footer-second {
+        margin-bottom: 6em;
+    }
+
+    .navbar-collapse
+    {
+        background-color: #00455a;
+    }
+
+    .body-part-stsm{
+        display: block;
+    }
+
+
+
+
+    
+
+
+
+
+
+}
+
