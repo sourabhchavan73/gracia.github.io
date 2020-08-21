@@ -187,6 +187,7 @@
     .enquiry-form-section input, select {
         width: 100%;
         margin: .5em 0;
+        background-color: #ffff;
     }
 
     .download-doc-btn {

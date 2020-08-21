@@ -11,6 +11,10 @@ body, html{
     font-family: Candara;
 }
 
+a{
+    text-decoration: none!important;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -156,7 +160,7 @@ button{
 }
 
 .navbar-padding{
-    padding: 2.5em 4em 0 4em;
+    padding: 0.5em 4em 0 4em;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -1262,9 +1266,14 @@ height: 30em;
 
   .nav-colored{
     background-color: #747474;
-    padding: 1.5em 4em 0 4em;
+    padding: 0.5em 4em 0 4em;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
+  }
+
+  .close{
+    position: relative;
+    left: -5px;
   }
