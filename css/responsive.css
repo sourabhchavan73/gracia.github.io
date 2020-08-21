@@ -180,14 +180,13 @@
     .download-doc-btn {
         font-size: 11px;
         margin: 0 2px;
-        padding: 15px 6px;
+        padding: 15px 3px;
     }
 
     .footer-first p, .footer-second p {
-        font-size: 11px;
-        padding: 10px 0;
+        font-size: 10px;
+        padding: 10px 4px;
         text-align: center;
-        
     }
 
     .social-media-titles p{
@@ -263,13 +262,12 @@
 
     .carousel-control-prev-icon-first {
         right: 11.5em;
-        bottom: 1em;
+        bottom: 0.5em;
     }
 
     .carousel-control-next-icon-first {
-
-        bottom: 15.9px;
-        right: 126px;
+        bottom: 7.9px;
+        right: 125.7px;
     }
 
     .banner-slider-top .w-100{
@@ -281,7 +279,7 @@
     }
 
     .footer-second {
-        margin-bottom: 6em;
+        margin-bottom: 3em;
     }
 
     .navbar-collapse
@@ -290,17 +288,21 @@
     }
 
     .body-part-stsm{
+        display: block!important;
+    }
+
+    .share-bar{
         display: block;
     }
 
-
-
-
-    
-
-
-
+    .close{
+        position: relative;
+        left: -6px;
+    }
 
 
 }
+
+
+
 
