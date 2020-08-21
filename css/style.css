@@ -699,11 +699,11 @@ button{
     padding: 3em 0;
 }
 
-#map{
-    width: 100%;
-    height: 400px;
-    background-color: grey;
-}
+#mapDiv {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
 .specifications-info-section{
     padding-top: 3em;
@@ -1248,3 +1248,9 @@ height: 30em;
   .share-bar{
     display: none;
 }  
+
+#mapDiv {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
