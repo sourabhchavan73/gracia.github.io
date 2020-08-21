@@ -6,7 +6,7 @@
     }
     
     .nav-colored{
-        display: none;
+        background-color: unset;
     }
 
     .navbar {
