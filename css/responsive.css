@@ -771,15 +771,14 @@
     .btn-atLeft {
         width: 90%;
     }
-
-
-
-
-
-
 }
 
+@media (max-width: 1500px){
+    br{
+        display: none;
+    }
 
+}
 
 
 

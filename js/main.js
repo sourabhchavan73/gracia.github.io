@@ -55,5 +55,15 @@
   
   }
 
-  // map
-  
+  // scroll
+
+  window.addEventListener("scroll", (event) => {
+    var scroll = this.scrollY;
+    if  (scroll > 600){
+      $('#mynav').addClass('nav-colored');
+      $('#mynav').removeClass('navbar-padding');
+    }else {
+      $('#mynav').removeClass('nav-colored');
+      $('#mynav').addClass('navbar-padding');
+    }
+});

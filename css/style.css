@@ -155,8 +155,12 @@ button{
     margin-top: 3em;
 }
 
-.navbar{
-    padding: 2.5em 4em;
+.navbar-padding{
+    padding: 2.5em 4em 0 4em;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .banner-carousel-caption {
@@ -1254,4 +1258,13 @@ height: 30em;
     width: 100%;
     margin: 0;
     padding: 0;
+  }
+
+  .nav-colored{
+    background-color: #747474;
+    padding: 1.5em 4em 0 4em;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
   }
