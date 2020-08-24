@@ -231,6 +231,7 @@
 
     .page-sections-atlg{
         display: block;
+        margin-top: 12em;
     }
 
     .project-description {
@@ -243,10 +244,18 @@
 
     .banner-slider-content-section {
         width: 100%!important;
+        position: relative;
+        top: 16em;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: visible;
     }
 
     .banner-carousel-card-inner {
-        padding: 1em;
+        padding: 1em 1em 4em 1em!important;
     }
 
     .banner-carousel-title {
@@ -267,13 +276,14 @@
     }
 
     .carousel-control-prev-icon-first {
-        right: 11.5em;
-        bottom: 0.5em;
+        right: 1.5em!important;
+        bottom: -140px!important;
     }
 
     .carousel-control-next-icon-first {
-        bottom: 7.9px;
-        right: 125.7px;
+        position: absolute;
+        bottom: -140px!important;
+        right: 145px!important;
     }
 
     .banner-slider-top .w-100{
@@ -389,6 +399,16 @@
         margin: 0;
         left: 20px;
         top: 0px;
+    }
+
+    .slider-bg-img {
+        height: 35vh;
+    }
+
+    .banner-carousel-control-next, .banner-carousel-control-prev {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
