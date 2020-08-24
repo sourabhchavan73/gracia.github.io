@@ -376,8 +376,20 @@
         margin-top: 2.5em;
     }
 
+    .floorPlan-carousel-control-prev-icon {
+        position: relative;
+        margin: 0;
+        top: 25px;
+        left: -23px;
+        
+    }
 
-
+    .floorPlan-carousel-control-next-icon {
+        position: relative;
+        margin: 0;
+        left: 20px;
+        top: 0px;
+    }
 
 
 
