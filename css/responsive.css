@@ -60,7 +60,7 @@
 
     .property-area-detail-title {
         font-family: 'Josefin Sans';
-        font-size: 13px!important;
+        font-size: 12px!important;
     }
 
     .btn-atRight {
@@ -129,6 +129,7 @@
         border-right: .5px solid #b7b7b7;
         border-top: .5px solid #b7b7b7;
         padding: 15px 0;
+        height: 8em;
     }
 
     .ameities-section-border-left {
@@ -245,7 +246,7 @@
     .banner-slider-content-section {
         width: 100%!important;
         position: absolute;
-        top: -6em;
+        top: -5em;
         left: 0;
     
     }
@@ -278,14 +279,15 @@
     }
 
     .carousel-control-prev-icon-first {
-        right: 2em!important;
-        bottom: -140px!important;
+        right: 38px!important;
+        bottom: -164px!important;
     }
 
     .carousel-control-next-icon-first {
         position: absolute;
-        bottom: -140px!important;
-        right: 152px!important;
+        bottom: -165px!important;
+        right: 140px!important;
+    
     }
 
     .banner-slider-top .w-100{
@@ -411,6 +413,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .header-slider-arrow{
+        width: 12px;
+        height: auto;
     }
 
 
@@ -694,8 +701,8 @@
     }
 
     .carousel-control-next-icon-first {
-        bottom: 7.9px;
-        right: 333.7px;
+        bottom: 151.8px!important;
+        right: 109px!important;
     }
 
     .banner-slider-top .w-100{
@@ -729,7 +736,6 @@
     }
 
     .property-detailed-card-two {
-        max-width: 31%;
         height: 7em;
         display: flex;
         align-items: center;
