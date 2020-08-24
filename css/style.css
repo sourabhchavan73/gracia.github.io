@@ -1314,3 +1314,24 @@ select {
 .ekko-lightbox{
   top: 0!important;
 }
+
+.last-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.07;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 0!important;
+}
+
+.footer-contact-section-atlg .contactright {
+  border-right: 1px solid #fff;
+  padding: 0 15px 0 0;
+
+}
+
+/* .footer-contact-section p:last-child:after {
+  content: "";
+  border-right: none!important;
+} */

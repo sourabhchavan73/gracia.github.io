@@ -204,12 +204,12 @@
     }
 
     .footer-first-row {
-        padding: 0 0 20px 0;
+        padding: 0 0 5px 0;
     }
 
     .footer-first {
         background-color: #00455a;
-        padding: 2em 0;
+        padding: 1.5em 0;
     }
 
     .specifications-content {
@@ -280,12 +280,11 @@
 
     .carousel-control-prev-icon-first {
         right: 38px!important;
-        bottom: -164px!important;
+        bottom: -174px!important;
     }
 
     .carousel-control-next-icon-first {
-        position: absolute;
-        bottom: -165px!important;
+        bottom: -176px!important;
         right: 140px!important;
     
     }
@@ -420,10 +419,24 @@
         height: auto;
     }
 
+    .footer-contact-section-atsm .contactright {
+        border-right: 1px solid #fff;
+        padding: 0 5px 0 5px;
+    }
 
+    .sociallink-section-atsm .contactright {
+        border-right: 1px solid #fff;
+        padding: 0 12px 0 12px;
+    }
 
+    .footer-hr{
+        background-color: #fff;
+        width: 92%;
+
+    }
+        
+ 
 }
-
 
 
 
