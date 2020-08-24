@@ -5,9 +5,7 @@
         display: none;
     }
     
-    .nav-colored{
-        background-color: unset;
-    }
+
 
     .navbar {
         padding: .5rem 1rem;
@@ -40,13 +38,11 @@
 
     .property-detailed-card-sm {
         background-color: #00455a;
-        max-width: 31%;
         height: 9em;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: #00455a;
-        margin: 0 4px;
     }
 
     .property-detailed-section {
@@ -54,7 +50,7 @@
     }
 
     .property-detailed-card-inner {
-        padding: 10px 0;
+        padding: 0 5px;
     }
 
     .property-area-line-atsm {
@@ -64,7 +60,7 @@
 
     .property-area-detail-title {
         font-family: 'Josefin Sans';
-        font-size: 13px;
+        font-size: 13px!important;
     }
 
     .btn-atRight {
@@ -78,7 +74,7 @@
     }
 
     .property-area-title {
-        font-size: 13px;
+        font-size: 13px!important;
     }
 
     .video-section-title {
@@ -181,7 +177,7 @@
     }
 
     .navbar-light .navbar-nav .nav-link {
-        line-height: 2.07;
+        line-height: 3;
     }
     
     .enquiry-form-section input, select {
@@ -193,7 +189,7 @@
     .download-doc-btn {
         font-size: 11px;
         margin: 0 2px;
-        padding: 15px 3px;
+        padding: 15px 15px;
     }
 
     .footer-first p, .footer-second p {
@@ -226,7 +222,7 @@
     }
 
     .home-section-two {
-        margin: 2em 0;
+        margin: 0em 0;
     }
 
     .page-sections-atsm{
@@ -246,10 +242,7 @@
     }
 
     .banner-slider-content-section {
-        width: 87%!important;
-        position: absolute!important;
-        top: 4em!important;
-        left: 1.5em!important;
+        width: 100%!important;
     }
 
     .banner-carousel-card-inner {
@@ -314,14 +307,87 @@
     }
 
     .property-detailed-card-two {
-        max-width: 31%;
         height: 7em;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: #00455a;
-        margin: 0 4px;
     }
+
+    .areaPrice-card-atsm{
+        padding-right: 10px!important;
+    }
+
+    .home-section-three{
+        padding-top: 2em;
+    }
+
+    .home-video-section {
+        margin-top: 2.5em;
+    }
+
+    .Ameities-section {
+        margin-top: 3em;
+    }
+
+    .floor-plans-slider-section {
+        margin: 3em 0 6.5em 0;
+    }
+
+    .download-doc-arrow {
+        display: none;
+    }
+
+    .gallary-imgrow-atsm .col-6{
+        padding-right: 5px;
+    }
+
+    .navbar-nav {
+        padding: 1.5em 0;
+    }
+
+    .nav-link-last {
+        padding: 0px 0;
+    }
+    
+    .slider-two-left-atsm{
+        width: 12px;    
+        height: auto;
+    }
+
+    .slider-two-left-arrow {
+        position: relative;
+        top: 14px;
+        left: -20px;
+    }
+
+    .slider-two-right-arrow {
+        position: relative;
+        top: -12px;
+        right: -1em;
+    }
+
+    .sliderThree-arrow-atsm{
+        width: 12px;    
+        height: auto;
+    }
+
+    .enquiry-form-section {
+        margin-top: 2.5em;
+    }
+
+    .floorPlan-carousel-control-prev-icon {
+        position: absolute;
+        margin: 1em 2em 0 0;
+    }
+
+    .floorPlan-carousel-control-next-icon {
+        position: absolute;
+        margin: 1em 0 0 3em;
+    }
+
+
+
 
 }
 
@@ -373,13 +439,11 @@
     }
 
     .property-detailed-card-sm {
-        max-width: 31%;
         height: 7em;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: #00455a;
-        margin: 0 4px;
     }
 
     .property-detailed-section {
@@ -577,13 +641,6 @@
         margin: 3em 0 0 0;
     }
 
-    .banner-slider-content-section {
-        width: 94%;
-        position: absolute;
-        top: 4em;
-        left: 1.5em;
-    }
-
     .banner-carousel-card-inner {
         padding: 1em;
     }
@@ -664,6 +721,10 @@
        display: none;
    }
 
+   .footer-first p, .footer-second p {
+    font-size: 10px;
+   }
+
    .banner-carousel-card-inner {
     padding: 1em;
     }
@@ -680,12 +741,6 @@
         padding-top: 1em;
     }
 
-    .banner-slider-content-section {
-        width: 35%;
-        position: absolute;
-        top: 9em;
-        left: 4em;
-    }
 
     .carousel-control-prev-icon-first {
         background-color: #fff;
@@ -693,9 +748,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        position: absolute;
+        position: relative;
         right: 10.5em;
-        bottom: 1em;
+        bottom: 9.5em;
     }
 
     .carousel-control-next-icon-first {
@@ -705,8 +760,8 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        bottom: 1em;
-        right: 109px;
+        bottom: 9.5em;
+        right: 110px;
     }
 
     .right-block-two {
@@ -717,30 +772,18 @@
         padding-top: 6px;
     }
 
-    .property-detailed-card-one {
-        position: relative;
-        top: 0;
-        left: -6.5em;
-    }
-
-    .property-detailed-card-three {
-        position: absolute;
-        top: 0;
-        left: 14.5em;
-    }
-
-    .property-detailed-card-second {
-        position: absolute;
-        top: 0;
-        left: 4em;
-    }
 
     .property-detailed-card {
-        width: 40%;
-        height: 8em;
+        height: 10em;
         display: flex;
         align-items: self-start;
         justify-content: center;
+    }
+
+    .area-card-atlast {
+        position: absolute;
+        top: 0;
+        left: -10.3em!important;
     }
 
     .property-area-title {
@@ -763,24 +806,43 @@
         height: 8em;
     }
 
-    .property-detailed-card-five {
+    .lastcard-lastcol {
         position: absolute;
-        left: 10.5em;
+        top: 0;
+        left: 20em!important;
     }
 
-    .property-detailed-card-six {
-        position: relative;
-        left: 21em;
+    .emi-btn-section {
+        font-size: 11px;
     }
+
+
 
     .btn-atLeft {
-        width: 90%;
+        width: 100%;
     }
 }
 
 @media (max-width: 1500px){
     br{
         display: none;
+    }
+
+}
+
+
+
+@media (max-width: 1400px){
+    .lastcard-lastcol {
+        position: absolute;
+        top: 0;
+        left: 26em;
+    }
+
+    .area-card-atlast {
+        position: absolute;
+        top: 0;
+        left: -12.5em;
     }
 
 }
