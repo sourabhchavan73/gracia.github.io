@@ -245,7 +245,7 @@
     .banner-slider-content-section {
         width: 100%!important;
         position: relative;
-        top: 16em;
+        top: 20em;
     }
 
     .carousel-inner {
@@ -283,7 +283,7 @@
     .carousel-control-next-icon-first {
         position: absolute;
         bottom: -140px!important;
-        right: 145px!important;
+        right: 143px!important;
     }
 
     .banner-slider-top .w-100{
