@@ -194,9 +194,9 @@
     }
 
     .footer-first p, .footer-second p {
-        font-size: 10px;
-        padding: 10px 4px;
+        font-size: 9.5px!important;
         text-align: center;
+        padding: 8.5px 0;
     }
 
     .social-media-titles p{
@@ -421,7 +421,7 @@
 
     .footer-contact-section-atsm .contactright {
         border-right: 1px solid #fff;
-        padding: 0 5px 0 5px;
+        padding: 0 7px;
     }
 
     .sociallink-section-atsm .contactright {
@@ -432,7 +432,11 @@
     .footer-hr{
         background-color: #fff;
         width: 92%;
+        margin-bottom: 1.5em;
+    }
 
+    .sociallink-section-atsm{
+        margin-top: 1em;
     }
         
  
