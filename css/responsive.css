@@ -196,7 +196,7 @@
     .footer-first p, .footer-second p {
         font-size: 9.5px!important;
         text-align: center;
-        padding: 8.5px 0;
+        padding: 8.5px 5px;
     }
 
     .social-media-titles p{
@@ -437,6 +437,10 @@
 
     .sociallink-section-atsm{
         margin-top: 1em;
+    }
+
+    .project-description-content {
+        font-size: 11.5px;
     }
         
  
