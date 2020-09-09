@@ -247,9 +247,8 @@
     .banner-slider-content-section {
         width: 100%!important;
         position: absolute;
-        top: 7em;
+        top: 5em;
         left: 0;
-    
     }
 
     .carousel-inner {
