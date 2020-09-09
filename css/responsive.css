@@ -5,6 +5,9 @@
         display: none;
     }
     
+    .carousel-item {
+        height: 17.5em;
+    }
 
 
     .navbar {
