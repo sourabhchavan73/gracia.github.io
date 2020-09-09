@@ -405,7 +405,8 @@
     }
 
     .slider-bg-img, .slider-bg-img-two {
-        height: 45vh;
+        height: 100%;
+        background-size: contain;
     }
 
     .banner-carousel-control-next, .banner-carousel-control-prev {
