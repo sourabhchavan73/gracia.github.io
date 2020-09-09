@@ -25,12 +25,6 @@ html{
      url('Candara.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
   }  
 
-  .page-logo{
-      height: auto;
-      width: 100px;
-  }
-
-
   .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: #fff;
   }
@@ -160,7 +154,7 @@ button{
 }
 
 .navbar-padding{
-    padding: 0.5em 4em 0 4em;
+    padding: 1.5em 4em 0 4em;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -203,8 +197,8 @@ button{
   justify-content: center;
   align-items: center;
   position: relative;
-  right: 8.5em;
-  bottom: 9em;
+  right: 8em;
+  bottom: 10em;
 }
 
 .carousel-control-next-icon-first {
@@ -214,7 +208,7 @@ button{
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 9em;
+  bottom: 10em;
   right: 78px;
 }
 
@@ -375,8 +369,23 @@ button{
   color: #fff;
   display: flex;
   align-items: flex-end;
-  padding: 5em 0;
+  padding: 6.5em 0;
+}
 
+.slider-bg-img-two{
+  background: url('../images/banner-two.png');
+  width: 100%;
+  height: 100vh;
+	min-height: 100%; 
+	position: relative; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  padding: 6.5em 0;
 }
 
 .video-section-title{
@@ -858,6 +867,7 @@ button{
     color: #ffffff;
     padding: 15px 20px;
     margin: 0 1em;
+    width: 95%;
   }
 
   .download-doc-arrow{
@@ -1329,6 +1339,11 @@ select {
   border-right: 1px solid #fff;
   padding: 0 28px 0 0;
 
+}
+
+.header-slider-arrow{
+  height: 20px;
+    width: 10px;
 }
 
 /* .footer-contact-section p:last-child:after {
