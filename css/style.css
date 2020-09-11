@@ -295,7 +295,7 @@ button{
 }
 
 .home-section-two{
-    margin: 6em 0;
+  margin: 1em 0 5em 0;
 }
 
 .area-card-atlast{
@@ -1341,9 +1341,25 @@ select {
 
 }
 
+.modal-open {
+  padding-right: 0px !important;
+  
+}
+
 .header-slider-arrow{
   height: 20px;
     width: 10px;
+}
+
+ .banner-slider-content-section{
+    position: absolute;
+    bottom: 9.7em;
+}
+
+.legacy-logo{
+  height: auto;
+  width: 25%;
+  margin-right: 15px;
 }
 
 /* .footer-contact-section p:last-child:after {

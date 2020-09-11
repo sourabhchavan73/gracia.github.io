@@ -16,7 +16,7 @@
 
     .page-logo {
         height: auto;
-        width: 50px;
+        width: 60%;
     }
 
     .block-title-one {
@@ -228,7 +228,7 @@
 
     .home-section-two {
         margin: 0em 0;
-        margin-top: 23em;
+        margin-top: 2em;
     }
 
     .page-sections-atsm{
@@ -247,13 +247,7 @@
         margin: 3em 0 0 0;
     }
 
-    .banner-slider-content-section {
-        width: 100%!important;
-        position: absolute;
-        top: 4.5em;
-        left: 0;
-    
-    }
+
 
     .carousel-inner {
         position: relative;
@@ -284,12 +278,12 @@
 
     .carousel-control-prev-icon-first {
         right: 26px!important;
-        bottom: -302.3px!important;
+        bottom: 25.7px!important;
     }
 
     .carousel-control-next-icon-first {
-        bottom: -303.5px!important;
-        right: 129px!important;
+        bottom: 24.5px!important;
+        right: 135px!important;
     }
 
     .banner-slider-top .w-100{
@@ -479,6 +473,9 @@
         padding: 6.5em 0;
       }
         
+      .banner-slider-content-section {
+        position: static;
+    }
  
 }
 
@@ -793,8 +790,6 @@
         background-color: #00455a;
         margin: 0 4px;
     }
-
-
 }
 
 /* ipad pro */
