@@ -23,7 +23,8 @@
         font-family: 'Josefin Sans';
         font-size: 17px;
         text-align: center;
-        padding-bottom: 1em;
+        padding-bottom: 0;
+        margin-bottom: 0!important;
     }
 
     .right-block-two {
