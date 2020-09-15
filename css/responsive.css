@@ -52,6 +52,11 @@
         background-color: #00455a;
     }
 
+
+    .modal {
+        top: 0.5em!important;
+    }
+
     .property-detailed-section {
         margin-top: 0em;
     }
