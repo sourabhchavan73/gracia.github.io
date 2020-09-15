@@ -15,6 +15,8 @@ a{
     text-decoration: none!important;
 }
 
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -137,6 +139,8 @@ button{
     text-align: left;
     color: #00455a;
     padding: 15px 0;
+    position: relative;
+    z-index: 999;
 }
 
 .req-siteVisit-btn-title{
@@ -225,7 +229,7 @@ button{
 
 .block-title-one{
     font-family: 'Josefin Sans';
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 300;
     line-height: 1.36;
     letter-spacing: 0.42px;
@@ -646,7 +650,7 @@ button{
 }
 
 .floor-plans-slider-section{
-    margin: 5em 0 7em 0;
+    margin: 5em 0 4.5em 0;
 }
 
 .floorPlan-carousel-control-prev-icon{
@@ -1375,7 +1379,7 @@ select {
 
 .legacy-logo{
   height: auto;
-  width: 25%;
+  width: 30%;
   margin-right: 15px;
 }
 

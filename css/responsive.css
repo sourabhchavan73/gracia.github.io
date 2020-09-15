@@ -1,5 +1,4 @@
 /* Mobile View */
-
 @media (max-width: 576px){
     .block-br br{
         display: none;
@@ -9,6 +8,10 @@
         height: 17.5em;
     }
 
+    .blockTwo-logo{
+        padding-bottom: 1em;
+        justify-content: center;
+    }
 
     .navbar {
         padding: .5rem 1rem;

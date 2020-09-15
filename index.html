@@ -56,7 +56,7 @@
             </li>
 
             <li class="nav-item nav-item-last">
-                <a class="nav-link nav-link-last" href="##" data-toggle="modal" data-target="#exampleModal">Request Site Visit 
+                <a class="nav-link nav-link-last" href="##" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter();">Request Site Visit 
                   <img src="images/nav-arrow.png" class="nav-arrow" alt="arrow"> 
                 </a>
             </li>      
@@ -149,14 +149,12 @@
                       <p class="banner-carousel-content-title font-candara">Welcome to Sukhwani Gracia, your dream home in Pune. <br> A place full of peace and life. Experience the better designed affordable 2 BHK flats with all the necessary amenities. <br> Let’s dive into a better living experience.</p>
                     </div>
     
-                    <div class="req-siteVisit-btn-section text-left">
-                      <a href="##">
-                        <button class="req-siteVisit-btn" data-toggle="modal" data-target="#exampleModal">
-                          <span class="req-siteVisit-btn-title">Request Site Visit
+                    <div class="req-siteVisit-btn-section text-left ">
+                        <button class="req-siteVisit-btn btn-close" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter();">
+                          <span class="req-siteVisit-btn-title btn-close">Enquire Now
                             <img src="images/nav-arrow.png" class="req-site-arrow" alt="arrow"> 
                           </span>
                         </button>
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -228,8 +226,8 @@
                     
                     <div class="">
                       <a href="#" class="btn-atRight">
-                        <button class="emi-btn-section emi-block-one-btn" data-toggle="modal" data-target="#exampleModal">
-                          Enjoy No EMI for 12 years  -  Learn More
+                        <button class="emi-btn-section emi-block-one-btn" onclick="removeFooter()" data-toggle="modal" data-target="#exampleModal">
+                          Nearing Possession
                         </button>
                       </a>
                     </div>
@@ -309,8 +307,8 @@
 
           <div class="">
             <a href="#" class="btn-atRight">
-              <button class="emi-btn-section emi-block-one-btn" data-toggle="modal" data-target="#exampleModal">
-                Enjoy No EMI for 12 years  -  Learn More
+              <button class="emi-btn-section emi-block-one-btn" onclick="removeFooter()" data-toggle="modal" data-target="#exampleModal">
+                Nearing Possession
               </button>
             </a>
           </div>
@@ -332,7 +330,7 @@
                   <div class="">
                     <div>
                       <div class="d-flex align-items-center">
-                        <img class="legacy-logo" src="images/logo.png" alt="">
+                        <img class="legacy-logo" src="images/block-logo.png" alt="block-two-logo">
                         <h4 class="block-title-one">A legacy of over 40 Years</h4>
                       </div>
                       <div class="block-content-section">
@@ -373,8 +371,8 @@
                   </div>
     
                   <div class="btn-atLeft">
-                    <button class="emi-btn-section" data-toggle="modal" data-target="#exampleModal">
-                      12+ Banking Partners For Easy Home Loan Process
+                    <button class="emi-btn-section" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter()">
+                      12+ Banking Partners For 100% Easy Home Loan Processing
                     </button>
                   </div>
                 </div>
@@ -395,8 +393,8 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-11 mx-auto">
-            <div class="d-flex align-items-center">
-              <img class="legacy-logo" src="images/logo.png" alt="">
+            <div class="d-flex align-items-center blockTwo-logo">
+              <img class="legacy-logo" src="images/block-logo.png" alt="block-two-logo">
               <h4 class="block-title-one">A legacy of over 40 Years</h4>
             </div>
 
@@ -445,8 +443,8 @@
               </div>
 
               <div class="btn-atLeft">
-                <button class="emi-btn-section" data-toggle="modal" data-target="#exampleModal">
-                  12+ Banking Partners For Easy Home Loan Process
+                <button class="emi-btn-section" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter()">
+                  12+ Banking Partners For 100% Easy Home Loan Processing
                 </button>
               </div>
             </div>
@@ -746,8 +744,7 @@
               <div class="ameities-sectionTwo-border-right">
                 <div class="ameities-section-border-inner">
                   <img src="images/Ameities-img-nine.png" alt="">
-                  <p class="ameities-section-title">Cycling & <br>
-                    Jogging Track</p>
+                  <p class="ameities-section-title">Walkway</p>
                 </div>
               </div>
             </div>
@@ -873,8 +870,7 @@
               <div class="ameities-sectionTwo-border-left">
                 <div class="ameities-section-border-inner">
                   <img src="images/Ameities-img-nine.png" alt="">
-                  <p class="ameities-section-title">Cycling &
-                    Jogging Track</p>
+                  <p class="ameities-section-title">Walkway</p>
                 </div>
               </div>
             </div>
@@ -1324,7 +1320,7 @@
               </div> -->
             </div>
 
-            <div class="floorplan-indicator-section">          
+            <!-- <div class="floorplan-indicator-section">          
               <a href="#myCarousel" data-slide="prev" class="floorPlan-carousel-control-prev">
                 <span class="floorPlan-carousel-control-prev-icon"><img class="sliderThree-arrow-atsm" src="images/slider-two-left-arrow.png" alt="right arrow"></span>
               </a>
@@ -1334,7 +1330,7 @@
               <a href="#myCarousel" data-slide="next" class="floorPlan-carousel-control-next">
                 <span class="floorPlan-carousel-control-next-icon"><img class="sliderThree-arrow-atsm" src="images/slider-two-right-arrow.png" alt="right arrow"></span>
               </a>
-            </div>
+            </div> -->
           </div>
 
           
@@ -1458,34 +1454,24 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-11 mx-auto">
-          <h5 class="page-sections-title-one ">Enquire Now</h5>
+          <h5 class="page-sections-title-one ">Request Call Back</h5>
 
           <div>
             <form>
               <div class="form-row">
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-4 col-md-4 col-12">
                   <label for="first-name" class="sr-only">Full name*</label>
                   <input type="text" class="" placeholder="Full name*">
                 </div>
                 
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-4 col-md-4 col-12">
                   <label for="phone" class="sr-only">Phone</label>
                   <input type="number" class="" placeholder="Phone no*">
                 </div>
 
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-4 col-md-4 col-12">
                   <label for="Email" class="sr-only">Email</label>
                   <input type="text" class="" placeholder="Email ID*">
-                </div>
-
-                <div class="col-lg-3 col-md-3">
-                  <label for="interest" class="sr-only">Interested In*</label>
-                  <select name="interest">
-                    <option value="" selected="true" disabled="disabled">Interested In*</option>
-                    <option value="">Flat</option>
-                    <option value="">Flat</option>
-                    <option value="">Flat</option>
-                  </select>
                 </div>
               </div>
 
@@ -1534,15 +1520,15 @@
 
           <div class="download-doc-section"> 
             <a href="##">
-              <button class="download-doc-btn" data-toggle="modal" data-target="#exampleModal">
+              <button class="download-doc-btn" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter()">
                 Download Brochure
                 <img src="images/enquiry-form-arrow.png" alt="arrow" class="download-doc-arrow">
               </button>
             </a>
 
             <a href="##">
-              <button class="download-doc-btn" data-toggle="modal" data-target="#exampleModal">
-                schedule Site Visit
+              <button class="download-doc-btn" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter()">
+                Schedule Site Visit
                 <img src="images/enquiry-form-arrow.png" alt="arrow" class="download-doc-arrow">
               </button>
             </a>
@@ -1563,8 +1549,7 @@
                 <a href="#Home"><p>About Us</p></a>        
                 <a href="#gallary"><p>Project Gallery</p>  </a>      
                 <a href="#Amenities"><p>Amenities</p></a>        
-                <a href="##" data-toggle="modal" data-target="#exampleModal"><p>Download Brochure</p></a>         
-                <a href="##" data-toggle="modal" data-target="#exampleModal"><p>Virtual Tour</p> </a>       
+                <a href="##" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter();"><p>Download Brochure</p></a>                
                 <a href="#contactUs"><p>Contact Us</p></a>
               </div>
             </div>
@@ -1608,8 +1593,7 @@
 
                 <div class="col-4 d-flex justify-content-center">
                     <div class="">      
-                      <a href="##" data-toggle="modal" data-target="#exampleModal"><p>Brochure</p></a>         
-                      <a href="##" data-toggle="modal" data-target="#exampleModal"><p>Virtual Tour</p> </a>       
+                      <a href="##" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter()"><p>Brochure</p></a>                
                       <a href="#contactUs"><p>Contact Us</p></a>
                     </div>
                 </div>
@@ -1700,7 +1684,7 @@
 
 
 
-    <div class="share-bar">
+    <div class="share-bar" id="share-bar">
       <ul class="share-bar--list">
           <a class="share-bar--item-link" href="mailto:demo@demo.com" title="Share on Facebook." target="_blank">
             <i class="fas fa-envelope facebook share-bar--item"> </i>
@@ -1720,11 +1704,11 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="personal-demo-modal">
-            <button type="button" class="close ml-auto personal-demo-modal-closebtn" data-dismiss="modal" aria-label="Close">
+            <button type="button" class="close ml-auto personal-demo-modal-closebtn" onclick="addFooter();" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true"><img class="" src="images/pop-up-close.png"></span>
             </button>
         

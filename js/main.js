@@ -80,4 +80,23 @@ $(document).ready(function () {
   );
 });
 
+// pop up
+function removeFooter(){
+  if($(window).width() <= 576){
+    $('#share-bar').css('display','none');
+  }
+    
+}
+
+function addFooter(){
+  if($(window).width() <= 576){
+    $('#share-bar').css('display','block');
+  }
+}
+
+
+
+
+
+
 
