@@ -45,16 +45,18 @@
 
     .req-siteVisit-btn {
         font-family: Poppins;
+        width: 70%;
         font-size: 12.5px;
         line-height: 1.07;
         letter-spacing: 0.7px;
-        text-align: left;
-        color: #00455a;
+        text-align: center;
+        color: rgb(0, 69, 90);
         padding: 15px 13px;
         position: relative;
         z-index: 999;
+        background-color: #ffffff!important;
     }
-    
+
     .property-detailed-card-sm {
         background-color: #00455a;
         height: 9em;

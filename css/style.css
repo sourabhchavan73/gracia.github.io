@@ -132,15 +132,17 @@ button{
 }
 
 .req-siteVisit-btn{
-    font-family: Poppins;
-    font-size: 12.5px;    
-    line-height: 1.07;
-    letter-spacing: 0.7px;
-    text-align: left;
-    color: #00455a;
-    padding: 15px 13px;
-    position: relative;
-    z-index: 999;
+  font-family: Poppins;
+  width: 35%;
+  font-size: 12.5px;
+  background-color: #ffffff!important;
+  line-height: 1.07;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: rgb(0, 69, 90);
+  padding: 15px 13px;
+  position: relative;
+  z-index: 999;
 }
 
 .req-siteVisit-btn-title{
