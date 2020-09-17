@@ -43,6 +43,18 @@
         color: #747474;
     }
 
+    .req-siteVisit-btn {
+        font-family: Poppins;
+        font-size: 12.5px;
+        line-height: 1.07;
+        letter-spacing: 0.7px;
+        text-align: left;
+        color: #00455a;
+        padding: 15px 13px;
+        position: relative;
+        z-index: 999;
+    }
+    
     .property-detailed-card-sm {
         background-color: #00455a;
         height: 9em;
